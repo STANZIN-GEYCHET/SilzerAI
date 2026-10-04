@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>SILZER</title>
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+
+<body>
+
+  <header class="topbar">
+
+    <div class="brand">
+      <div class="logo">S</div>
+      <span>SILZER</span>
+    </div>
+
+    <button class="menu-button">
+      ☰
+    </button>
+
+  </header>
+
+
+  <main>
+
+    <section class="hero">
+
+      <p class="small-title">
+        AI STUDY ASSISTANT
+      </p>
+
+      <h1>
+        Study smarter.
+      </h1>
+
+      <p class="subtitle">
+        Your personal AI study assistant.
+      </p>
+
+    </section>
+
+
+    <section class="upload-card">
+
+      <div class="book-icon">
+        📚
+      </div>
+
+      <h2>
+        Add your textbook
+      </h2>
+
+      <p>
+        Upload a PDF and let SILZER
+        understand your study material.
+      </p>
+
+
+      <div
+        id="bookStatus"
+        class="book-status"
+      >
+        No textbook loaded
+      </div>
+
+
+      <input
+        type="file"
+        id="pdfInput"
+        accept=".pdf,application/pdf"
+        hidden
+      >
+
+
+      <button
+        id="uploadButton"
+        class="upload-button"
+      >
+        Upload textbook
+      </button>
+
+    </section>
+
+
+    <section class="question-section">
+
+      <textarea
+        id="questionInput"
+        class="input-box"
+        placeholder="What do you want to study?"
+        rows="1"
+      ></textarea>
+
+
+      <button
+        id="micButton"
+        class="mic-button"
+      >
+        🎙
+      </button>
+
+
+      <button
+        id="searchButton"
+        class="search-button"
+      >
+        ↑
+      </button>
+
+    </section>
+
+
+    <section
+      id="searchResults"
+      class="search-results"
+    ></section>
+
+  </main>
+
+
+  <footer>
+    SILZER • Study smarter
+  </footer>
+
+
+  <script
+    type="module"
+    src="script.js"
+  ></script>
+
+</body>
+
+</html>
