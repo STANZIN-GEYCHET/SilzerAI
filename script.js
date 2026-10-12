@@ -9,7 +9,7 @@ import {
 GlobalWorkerOptions.workerSrc =
   "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.worker.min.mjs";
 
-const GEMINI_API_KEY = "AQ.Ab8RN6JVvUns0Broq0AfYfDeCxlzqK4o2M0U2PpN8d7jwsfN7Q";
+const GEMINI_API_KEY = "AQ.Ab8RN6IHhyijHR-XunOeusKampr-NKMCqEiquyjxKQT4SNtL6w";
 const uploadButton =
   document.getElementById("uploadButton");
 
